@@ -3,7 +3,7 @@ RC522-python
 
 A small class to interface with the RFID reader Module RC522 on the Chip.
 
-##Requirements
+## Requirements
 This code requires you to have SPI-Py and CHIP_IO installed from the following repository:
 https://github.com/lthiery/SPI-Py
 https://github.com/xtacocorex/CHIP_IO
@@ -22,6 +22,6 @@ You can use [this](http://docs.getchip.com/images/chip_pinouts.jpg) image for re
 | RST  | U14_14 | XIO-P1     |
 | 3.3V | Any 3V3| Any 3V3    |
 
-##Usage
-Import RC522 in the top of your script. For more info see the example.
+## Usage
+Import RC522 in the top of your script. For more info see the example.<br />
 You may need to run "enable-spi" script before
