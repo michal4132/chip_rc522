@@ -1,0 +1,2 @@
+mkdir -p /sys/kernel/config/device-tree/overlays/spi
+sh -c 'cat /lib/firmware/nextthingco/chip/sample-spi.dtbo > /sys/kernel/config/device-tree/overlays/spi/dtbo'
