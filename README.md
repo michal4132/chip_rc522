@@ -1,7 +1,7 @@
 RC522-python
 ==============
 
-A small class to interface with the NFC reader Module RC522 on the Chip.
+A small class to interface with the RFID reader Module RC522 on the Chip.
 
 ##Requirements
 This code requires you to have SPI-Py and CHIP_IO installed from the following repository:
@@ -24,3 +24,4 @@ You can use [this](http://docs.getchip.com/images/chip_pinouts.jpg) image for re
 
 ##Usage
 Import RC522 in the top of your script. For more info see the example.
+You may need to run "enable-spi" script before
